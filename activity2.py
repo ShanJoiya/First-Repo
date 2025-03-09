@@ -1,24 +1,19 @@
-
-num1 = 45
-num2 = 3
-
-
-print("NUmber 1", num1)
-print("Number 2", num2)
-print("Addition :", num1+num2)
-print("Difference :", num1-num2)
-print("Product :", num1*num2)
-print("Division :", num1/num2)
-print("Floor Division :", num1//num2)
-print("Modulus Operation :", num1%num2)
-print("Square :", num2**2)
-print("Square Root :", num2**0.5)
+my_set = {1,2,2,3,4,4,4}
+print("Set ;", my_set)
 
 
-print("Equal ?", num1==num2)
-print("Number greater ?", num1>num2)
-print("Number less ?", num1<num2)
-print("Not equal ?", num1!=num2)
 
-result = num1/2+num2**2+10
-print("Result of given equation is", result)
+my_set.add(5)
+print("Updated set :", my_set)
+
+
+set1 = my_set
+set2 = {2,4,4,6}
+
+
+print("\nSet 1", set1)
+print("Set 2", set2)
+print("Difference")
+print(set1.difference(set2))
+print("Symmetric Difference")
+print(set1.symmetric_difference(set2))

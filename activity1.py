@@ -1,22 +1,14 @@
-name = "Penguin"
-age = 15
-is_student = True
-weight = 38.5
-
-print("Name :", name)
-print("Data type of Name is", type(name))
-print("Age :", age)
-print("Data type od Age is", type(age))
-print("is_stydent :", is_student)
-print("Data type of is_student is", type(is_student))
-print("Weight :", weight)
-print("Data type of Weight is", type(weight))
+my_tuple = ('p','e','r','m','i','t')
+print(my_tuple[0])
+print(my_tuple[5])
 
 
-print("\n After Type Casting....")
-age = str(age)
-print(age)
-print("Data type of age is", type(age))
-weight = int(weight)
-print(weight)
-print("Data type of weight is", type(weight))
+n_tuple = ("mouse", [8,4,6], (1,2,3))
+print(n_tuple[0][3])
+print(n_tuple[1][1])
+
+
+print("Sliced ;", my_tuple[1:4])
+
+for letter in (my_tuple):
+    print("Hello", letter)

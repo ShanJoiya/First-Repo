@@ -1,11 +1,8 @@
-x = input("Enter value od x:")
-y = input("Enter value of y:")
-
-
-temp = x
-x = y
-y = temp
-
-
-print("value of x after swapping", x)
-print("value of y after swapping", y)
+setc1 = {"green", "blue"}
+setc2 = {"blue", "yellow"}
+print("original sets;")
+print(setc1)
+print(setc2)
+setc = setc1.union(setc2)
+print("\nUnion of above sets:")
+print(setc)
