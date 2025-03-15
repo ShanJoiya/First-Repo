@@ -1,19 +1,18 @@
-my_set = {1,2,2,3,4,4,4}
-print("Set ;", my_set)
+class student:
+        grade = 12 
+        name = "Penguin"
 
 
-
-my_set.add(5)
-print("Updated set :", my_set)
-
-
-set1 = my_set
-set2 = {2,4,4,6}
+        def introduction(self):
+               print("Hello, I am student")
 
 
-print("\nSet 1", set1)
-print("Set 2", set2)
-print("Difference")
-print(set1.difference(set2))
-print("Symmetric Difference")
-print(set1.symmetric_difference(set2))
+        def details(self):
+              print("My name is", self.name)
+              print("I study in grade", self.grade)
+
+
+ob = student()
+
+ob.introduction()
+ob.details()

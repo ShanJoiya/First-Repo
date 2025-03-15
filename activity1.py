@@ -1,14 +1,6 @@
-my_tuple = ('p','e','r','m','i','t')
-print(my_tuple[0])
-print(my_tuple[5])
+class student:
+    grade = 12
+    print("Hey, I am a student of grade", grade)
 
 
-n_tuple = ("mouse", [8,4,6], (1,2,3))
-print(n_tuple[0][3])
-print(n_tuple[1][1])
-
-
-print("Sliced ;", my_tuple[1:4])
-
-for letter in (my_tuple):
-    print("Hello", letter)
+ob = student()   
